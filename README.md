@@ -1,52 +1,50 @@
-🚌 Bus Reservation System (Java - OOP Based)
-📖 Overview
-The Bus Reservation System is a simple command-line mini project developed in Java using Object-Oriented Programming (OOP) concepts.
-It allows users to view available buses, book seats, and cancel reservations through an interactive terminal-based interface.
+# 🚌 Bus Reservation System (Java - OOP Mini Project)
+![Java](https://img.shields.io/badge/Language-Java-orange?logo=java)
+![Platform](https://img.shields.io/badge/Platform-VS%20Code-blue?logo=visualstudiocode)
+![Type](https://img.shields.io/badge/Project-Type%3A%20Mini%20Project-success)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-⚙️ Features
-✅ View available buses and seat details
-✅ Book seats for a selected bus
-✅ Cancel previously booked seats
-✅ Prevents overbooking and invalid cancellations
-✅ Built fully using OOP concepts (Class, Objects, Encapsulation)
-✅ Runs in VS Code or any terminal with Java installed
+## 📖 Overview
+The **Bus Reservation System** is a command-line based mini project written in **Java**.  
+It demonstrates **Object-Oriented Programming (OOP)** concepts such as *Classes*, *Objects*, *Encapsulation*, and *Methods*.  
+🧠 This project allows users to:
+- View available buses  
+- Book or cancel seats  
+- Prevent overbooking and invalid cancellations  
+- Interact via a clean text-based menu
 
-🧱 Technologies Used
-Component	Description
-Language	Java
-Paradigm	Object-Oriented Programming
-IDE/Editor	Visual Studio Code
-Execution	Command Line / Terminal
-🗂️ Project Structure
+## ⚙️ Features
+✨ User-friendly terminal interface  
+🚌 Multiple buses with seat management  
+🧾 Seat booking and cancellation  
+🚫 Prevents booking when seats are unavailable  
+🔒 Encapsulation & clean OOP design  
+
+## 🧱 Technologies Used
+| Component | Description |
+|------------|--------------|
+| **Language** | Java |
+| **Paradigm** | Object-Oriented Programming |
+| **Editor** | Visual Studio Code |
+| **Execution** | Command Line / Terminal |
+
+## 🗂️ Folder Structure
 BusReservationSystem/
 │
-├── BusReservationSystem.java     # Main source file
-├── README.md                     # Project documentation
-└── .dist/                        # (Optional) Auto-created system folder
+├── BusReservationSystem.java # Main source code
+├── README.md # Project documentation
+└── .dist/ # (Auto-generated folder)
 
-🚀 How to Run
-Step 1: Open folder in VS Code
+## 🚀 How to Run
+1️⃣ Open the Project Folder
+Open the project in **VS Code**  
 C:\Users\Admin\OneDrive\Desktop\BusReservationSystem
 
-Step 2: Open Terminal and compile
+2️⃣ Compile the Java File
 javac BusReservationSystem.java
 
-Step 3: Run the program
+3️⃣ Run the Program
 java BusReservationSystem
-
-Step 4: Follow the menu
-=== BUS RESERVATION SYSTEM ===
-1. View Bus Information
-2. Book Ticket
-3. Cancel Ticket
-4. Exit
-
-🧠 Concepts Used
-Classes and Objects
-Encapsulation
-Methods and Constructors
-ArrayList for data storage
-Scanner for user input
 
 🧩 Example Output
 === BUS RESERVATION SYSTEM ===
@@ -54,18 +52,34 @@ Scanner for user input
 2. Book Ticket
 3. Cancel Ticket
 4. Exit
-
 Enter your choice: 1
+
 Bus No: 101 | From: Coimbatore | To: Chennai | Available Seats: 40
 Bus No: 102 | From: Bangalore | To: Coimbatore | Available Seats: 35
 
+🧠 Key Concepts Implemented
+1)Classes and Objects – Represent buses and the system
+2)Encapsulation – Keeps data private within the class
+3)ArrayList – Manages multiple bus records
+4)Scanner Class – Handles user input
+5)Control Flow (Switch Case) – Menu-based navigation
+
 💡 Future Enhancements
-Add user login system
-Store data in a database (MySQL / SQLite)
-Add GUI interface using JavaFX or Swing
-Include ticket fare and payment simulation
+🚀 Add user login and admin module
+💾 Store data permanently using MySQL or SQLite
+🖥️ Create a GUI interface using JavaFX or Swing
+💰 Include ticket pricing and payment simulation
 
 👩‍💻 Author
 S. Sanjana
 🎓 B.Tech Information Technology
 💬 “Coding simple, building smart!”
+📧 (Add your email or LinkedIn link here if you want)
+
+🌟 Support & Feedback
+If you like this project, give it a ⭐ on GitHub!
+Feedback and suggestions are always welcome 😄
+
+🏷️ License
+This project is open-source and free to use for educational purposes.
+
